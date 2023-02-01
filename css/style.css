@@ -1,0 +1,3243 @@
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('../font/proxima_nova_bold-webfont.woff') format('woff'), url('../font/proxima_nova_bold-webfont.woff') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'proxima_nova_ltlight';
+    src: url('../font/proxima_nova_light-webfont.woff') format('woff'), url('../font/proxima_nova_light-webfont.woff') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../font/proxima_nova_regular-webfont.woff') format('woff'), url('../font/proxima_nova_regular-webfont.woff') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'proxima_nova_ltsemibold';
+    src: url('../font/proxima_nova_semibold-webfont.woff') format('woff'), url('../font/proxima_nova_semibold-webfont.woff') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 0.5rem;
+    transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+/* img:hover{
+    transform: scale(1.1);
+} */
+
+body {
+    background: #7f8c8d;
+    /* padding-bottom: 36px; */
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header Design CSS Code  */
+
+.site-head-area {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: #ffccc2;
+    z-index: 2;
+
+}
+
+.site-link-logo-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font: 1.5rem 'Josefin Sans', sans-serif;
+    padding: 10px 5px;
+}
+
+.site-link-logo-area a {
+    color: rgb(255, 92, 40);
+}
+
+.list-item {
+    color: rgb(255, 92, 40);
+    transition: all 0.4s ease-in;
+}
+
+.menu-links-anchor {
+    transition: all 0.4s ease-in;
+}
+
+
+.menu-links-anchor:hover {
+    color: #ecf0f1;
+}
+
+
+.nav-menu-links a {
+    color: #48001e;
+}
+
+.nav-menu-links {
+    font: 1rem 'Josefin Sans', sans-serif;
+}
+
+.nav-menu-links .list-item {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 4px;
+}
+
+/* Header Desing CSS Code End */
+
+.slider-area {
+    width: 100%;
+    height: 35vw;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+}
+
+
+
+.mini-info-right-image-first-child img {
+    border-radius: 0px;
+}
+
+.swiper-button-prev {
+    display: none !important;
+}
+
+.swiper-button-next {
+    display: none !important;
+}
+
+.mini-info-area-box {
+    width: 100%;
+    background-image: url(../img/papirus.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-box img {
+    border-radius: 0.5rem;
+}
+
+.mini-info-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mini-info-left-area {
+    width: 75%;
+    text-align: justify;
+}
+
+.mini-info-title {
+    text-align: center;
+    font: 25px 'PT Sans', sans-serif;
+    color: #fff;
+    margin: 20px 0px;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(-45deg, #00C3E6 0%, #0090C9 52%, #005A7D 96%);
+}
+
+.mini-info-right-area {
+    width: 25%;
+    margin: 0px -25px -20px 5px;
+    text-align: justify;
+}
+
+.mini-info-content {
+    font: 600 20px PT Sans, sans-serif;
+    text-align: justify;
+    color: #005A7D;
+    padding-bottom: 20px;
+}
+
+.mini-info-content p {
+    padding-bottom: 15px;
+}
+
+.mini-info-right-image-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mini-info-right-image-first-child {
+    width: 70%;
+    margin: 5px 0px;
+}
+
+.mini-info-right-image-second-child {
+    width: 50%;
+    margin: 10px 0px;
+
+}
+
+.info-box-area {
+    width: 100%;
+    background-color: #151b26;
+}
+
+.info-box-main-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.info-content-title-container-area {
+    width: 100%;
+}
+
+.info-content-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.info-content-title {
+    width: 100%;
+    font: 600 36px "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    letter-spacing: .4px;
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info-content-img-area {
+    width: 15%;
+}
+
+.warning-box-button-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+
+.info-box {
+    border-radius: 4px;
+    border: solid 1px #d4d7dd;
+    background-color: #fff;
+    font: 500 20px "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #151b26;
+    height: 120px;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+}
+
+.info-content-box {
+    width: 33.3333%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.info-content-icon {
+    width: 15%;
+}
+
+.info-content-icon i {
+    color: #fff;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.w3-red:after {
+    content: '';
+    width: 90%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+}
+
+.w3-red {
+    color: #fff !important;
+    background-color: #c11e43 !important;
+    box-shadow: 0 10px 20px 0 rgb(193 30 67 / 30%);
+    border: 0;
+}
+
+.content-area {
+    width: 100%;
+}
+
+
+
+.content-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-box {
+    width: 33.333%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.ingrediant {
+    color: #fff;
+    font: 800 18px "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+
+.site-end {
+    width: 100%;
+    background: url(../img/footer_bg.jpg);
+}
+
+.footer-container {
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-content-box {
+    width: 25%;
+    text-align: left;
+    color: #fff;
+    margin: 30px 40px;
+}
+
+.footer-content-title {
+    font-family: 'proxima_nova_rgregular';
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+}
+
+.footer-content-title h4 {
+    padding-bottom: 10px;
+}
+
+.footer-content-box ul {
+    margin-top: 23px;
+}
+
+.footer-content-title::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #34c4cc;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content-box ul li a {
+    font: bold 16px 'proxima_nova_rgregular';
+    letter-spacing: .7px;
+    color: #fff;
+}
+
+.footer-content-box ul li {
+    margin-top: 10px;
+}
+
+.footer-social-media-icon-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-media-icons {
+    width: 15%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+
+.footer-media-icons i {
+    font-size: 20px;
+    width: 47px;
+    margin: 0 -20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-form-area {
+    width: 100%;
+}
+
+.footer-form-area form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.footer-form-area input {
+    margin-bottom: 20px;
+    height: 3.125rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+form .form-input[type="text"]:focus {
+    border-color: #00b6fd;
+    box-shadow: 0 0 0 0.2rem rgba(0, 90, 125, 0.25);
+    outline: 0 none;
+}
+
+input::placeholder {
+    color: #6bb4d0;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 0.75rem;
+}
+
+textarea::placeholder {
+    color: #6bb4d0;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 0.75rem;
+}
+
+.form-button {
+    background-color: #005A7D;
+    border-radius: 0.25rem;
+    color: #fff;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    border: 1px solid transparent;
+}
+
+.big-text-area {
+    height: 62px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.big-text-area:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+.content-menu-area {
+    width: 100%;
+    margin-top: 115px;
+    background-color: #c7ecee;
+}
+
+.content-curtain-menu-main {
+    width: 100%;
+    background-color: #fbfbfb;
+}
+
+.ottoman-founded-period-content-area {
+    width: 100%;
+}
+
+/* Ottoman Sultane sultanate content Box Area Start Code */
+
+.ottoman-empire-sultanate-info-area {
+    width: 100%;
+    background-color: #2980b9;
+}
+
+.ottoman-empire-sultanate-info-container {
+    width: 100%;
+    display: flex;
+}
+
+
+.ottoman-empire-sultane-sultanate-paragraph-area {
+    width: 100%;
+    color: #f7f1e3;
+    padding: 20px;
+}
+
+.ottoman-empire-content-box {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.ottoman-empire-sultanate-main-title {
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.ottoman-empire-sultanate-content {
+    width: 95%;
+    text-align: justify;
+    margin: 10px 0;
+    padding-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.multiple-paragraph {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.multiple-paragraph-special-spacing {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.mini-title-space {
+    margin-bottom: 30px;
+}
+
+.special-box {
+    display: flex;
+}
+
+.special-box-content-paragraph {
+    width: 70%;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    padding: 10px 0px;
+    padding-right: 20px;
+}
+
+.content-image-area {
+    width: 30%;
+}
+
+.content-image {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.image-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    text-align: center;
+}
+
+.padding-left {
+    padding-left: 10px;
+}
+
+/* Ottoman Empire - Sultane - image code */
+
+.ottoman-empire-sultanate-portre {
+    width: 30%;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 30px 0px;
+    align-items: center;
+}
+
+.ottoman-empire-sultanate-image-area {
+    width: 75%;
+}
+
+.ottoman-sultane-info-content-area {
+    width: 100%;
+}
+
+.sultane-space {
+    margin-top: 10px;
+}
+
+.ottoman-sultane-name-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #dff9fb;
+    flex-direction: column;
+}
+
+.ottoman-sultane-reign-info-area {
+    width: 100%;
+}
+
+.ottoman-sultane-name-area:first-child {
+    margin-top: 15px;
+}
+
+.ottoman-sultane-reign-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.ottoman-sultane-reign-tenure-title-box {
+    font-family: 'Montserrat';
+    color: #fff;
+    width: 45%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.content-info-box {
+    display: flex;
+}
+
+.different-image-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-bottom {
+    margin: 20px 0;
+}
+
+.image-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #dff9fb;
+}
+
+.image-name h4 {
+    padding-top: 10px;
+}
+
+.paragraph-mini-title {
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-bottom: 2px solid #f7f1e3;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.paragraph-mini-title h5 {
+    padding-bottom: 5px;
+}
+
+.multiple-border-area {
+
+    width: 96%;
+    padding: 1px 12px;
+    display: flex;
+    height: 3px;
+}
+
+.multiple-border-area>* {
+
+    width: 100%;
+    height: 3px;
+}
+
+.first-border {
+    background-color: #dff9fb;
+    width: calc(100% / 2);
+}
+
+.second-border {
+    background-color: #ff9b07;
+    width: calc(100% / 2);
+}
+
+.ottoman-empire-paragraph-content-box {
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 96%;
+    padding: 10px 10px;
+}
+
+.war-image-box-and-mini-title-area-box {
+    width: 100%;
+    display: inline-block;
+}
+
+.no-margin {
+    margin-left: 0;
+}
+
+.war-big-image-multiple-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    font-family: 'Montserrat';
+}
+
+.bottom {
+    padding-top: 50px;
+}
+
+.ottoman-empire-content-image-box {
+    width: 100%;
+    display: flex;
+    padding: 10px 10px;
+}
+
+.content-paragraph {
+    width: 66%;
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    padding-right: 40px;
+}
+
+.ottoman-empire-image {
+    width: 75%;
+    margin-top: 20px;
+}
+
+.ottoman-empire-image:first-child {
+    margin-top: 0;
+}
+
+.ottoman-sultane-name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+.paragraph-space {
+    padding-top: 10px;
+}
+
+.paragraph-multiple-space {
+    padding: 10px 0 10px;
+}
+
+
+.paragraph-content-title-box {
+    width: fit-content;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    border-bottom: 2px solid #f7f1e3;
+    margin: 30px 0;
+}
+
+.paragraph-content-mini-content-box {
+    width: fit-content;
+    border-left: 4px solid #eaecf0;
+    margin: 30px 0;
+}
+
+.paragraph-content-mini-content-box p {
+    padding-left: 20px;
+}
+
+
+/* Ottoman Sultane sultanate content box Area End Code */
+
+/* ------------------------------------------------------------- */
+
+
+.ottoman-founded-background {
+    width: 100%;
+    background-color: #2980b9;
+}
+
+.ottoman-founded-main-container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ottoman-empire-paragraph-period-box-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .sultanate-paragraph{
+    width: 70%;
+    font-family: Montserrat;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+} */
+
+.period-paragraph {
+    padding: 10px 0;
+    font-family: 'Montserrat';
+}
+
+
+.period-box-area {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.contens-special {
+    padding-left: 1px !important;
+}
+
+.ottoman-founded-main-title {
+    width: 100%;
+    color: #333;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.ottoman-founded-main-title:after {
+    height: 2px;
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 10px;
+    width: 25%;
+    content: '';
+    background-color: #337ab7;
+    left: 0;
+    bottom: 0;
+}
+
+
+.sultane-successor-area {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.second-saltanate-main-title {
+
+    margin: 20px auto;
+}
+
+.space-box {
+    margin: 10px 15px;
+    padding-top: 4px;
+    display: block;
+    width: 90%;
+    background-color: #e4dcf6;
+}
+
+.paragraph-map-box-area {
+    width: 100%;
+    display: flex;
+}
+
+.paragraph-map-box {
+    width: 70%;
+    padding-right: 40px;
+}
+
+.map-box {
+    width: 40%;
+    margin: 0;
+}
+
+.map-box-content {
+    width: 100%;
+    text-align: center;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 10px 0;
+}
+
+
+.sultane-arrangement-title:first-child {
+    margin-bottom: 10px;
+}
+
+.sultane-arrangement-title {
+    margin-bottom: 10px;
+}
+
+.sultane-successor-title {
+    width: 100%;
+}
+
+
+.ottoman-empire-founded-paragraph-title .most-mini::after {
+    width: 9.2%;
+}
+
+.sultane-successor-title h5 {
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+
+.ottoman-founded-main-paragraph {
+    width: 100%;
+    font-family: Montserrat;
+}
+
+.ottoman-founded-main-paragraph p {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.ottoman-founded-main-title h4 {
+    padding-left: 1px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ff9b07;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
+.ottoman-founded-table-of-contents {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ottoman-founded-table-of-contents ul {
+    border-left: 2px solid #002a5c;
+    padding-left: 15px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.table-of-contens {
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    font-family: 'proxima_nova_rgregular';
+}
+
+.table-of-contens li {
+    padding-top: 10px;
+}
+
+.table-of-contens a {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #337ab7;
+    font-size: 1rem;
+}
+
+
+.ottoman-founded-content-container {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.ottoman-sultanate-image-area {
+    width: 30%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+.ottoman-sultanate-image-area img {
+    width: 100%;
+    height: auto;
+}
+
+.ottoman-empire-content-area {
+    width: 100%;
+    margin-left: 25px;
+    color: #f7f1e3;
+}
+
+.ottoman-empire-founded-title {
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.ottoman-empire-founded-paragraph p {
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.ottoman-empire-founded-paragraph p:last-child {
+    padding-bottom: 60px;
+}
+
+
+.ottoman-empire-founded-title h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ff9b07;
+}
+
+
+.ottoman-empire-founded-paragraph {
+    width: 100%;
+    text-align: justify;
+    font-size: 1rem;
+    font-family: Montserrat;
+}
+
+.ottoman-empire-founded-paragraph-image-area {
+    width: 100%;
+}
+
+.ottoman-empire-founded-paragraph-image {
+    width: 60%;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.ottoman-empire-founded-paragraph-image img {
+    width: 100%;
+    height: auto;
+}
+
+.ottoman-empire-founded-image-title {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.ottoman-empire-war-statistics {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nested {
+    padding-left: 0;
+    width: 100%;
+}
+
+.war-big-multiple-image-area {
+    width: 100%;
+    display: flex;
+}
+
+.war-big-image-multiple {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.orderer-list-area {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.orderer-list-area ol {
+    list-style-position: inside;
+}
+
+.orderer-list-area ol li {
+    list-style-type: decimal;
+    margin: 5px 10px;
+    list-style-position: inside;
+}
+
+.paragraph-box-war-box-content-image-box-area {
+    display: flex;
+}
+
+.paragraph-box {
+    width: 60%;
+    padding: 0px 10px;
+    padding-right: 20px;
+    font-family: 'Source Sans Pro';
+    text-align: justify;
+}
+
+.paragraph-box p {
+
+    padding: 10px 0;
+}
+
+.war-box-content-image-box-area {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.war-box-content-image {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.war-box-content-image-area {
+    width: 100%;
+}
+
+.war-content-image-box {
+    width: 85%;
+    margin: 10px auto;
+}
+
+.war-content-image-box img {
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.war-content-image-text {
+    width: 100%;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #dff9fb;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+
+
+
+/* Savaş Bilgi Kutusu */
+
+.war-info-box {
+    width: 80%;
+    margin: 2px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.war-info-box-area {
+    width: 50%;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.war-info-title {
+    width: 100%;
+    font-family: Exo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    text-align: center;
+    margin: 10px 0;
+    background-color: #EBF1FB;
+    color: #0067FF;
+    border-radius: 4px;
+}
+
+.war-info-title:first-child {
+    margin-bottom: 10px;
+}
+
+.war-content-box-area {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.war-strength-box-area {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.war-content-title-area {
+    width: 100%;
+    font-family: Exo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.war-content-title {
+    width: 30%;
+    padding: 5px 10px;
+}
+
+.title-text {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.war-content-title-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.war-belligerents-box-area {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.war-belligerents-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.belligerents-flag-name-box {
+    width: 100%;
+    display: flex;
+    margin: 5px 10px;
+    align-items: center;
+}
+
+.belligerents-flag-area {
+    width: 20%;
+}
+
+.belligerents-multiple-flag-area{
+    width: 40%;
+    display: flex;
+}
+
+.belligerents-image-box {
+    width: 100%;
+}
+
+.belligerents-multiple-image-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.belligerents-multiple-image-box:last-child{
+    margin-left: 5px;
+}
+
+
+.belligerents-multiple-image-box img {
+    border-radius: 0;   
+}
+
+.belligerents-image-box img {
+    border-radius: 0;
+}
+
+.belligerents-name {
+    width: 100%;
+    font-family: Exo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.commander-info-area {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.strength-info-area {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: left;
+}
+
+.commander-info-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.commander-name {
+    width: 100%;
+    font-family: Exo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.no-spacing {
+    margin: 10px 0;
+}
+
+.remove {
+    margin-left: 0;
+}
+
+.padding {
+    padding-left: 15px;
+}
+
+.wrap-property {
+    flex-wrap: wrap;
+}
+
+.war-info-box-image-area {
+    width: 100%;
+}
+
+.war-image {
+    width: 80%;
+    margin: 16px 25px;
+}
+
+.war-content-list-area {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.war-content-list {
+    list-style-position: inside;
+    width: 100%;
+}
+
+.war-content-list ul li {
+    list-style-type: disc;
+    margin: 5px 30px;
+}
+
+.war-info-image-area {
+    width: 100%;
+}
+
+.war-info-image {
+    width: 100%;
+}
+
+.war-image-info-text {
+    width: 100%;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #dff9fb;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.war-commander-none-flag-box {
+    width: 100%;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding-left: 20px;
+}
+
+.belligerents-no-flag-name {
+    width: 100%;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 5px 10px;
+}
+
+.war-content-box {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.left-space {
+    padding-left: 10px;
+}
+
+.belligerents-same-ratio-area {
+    width: 100%;
+    display: flex;
+}
+
+.belligerents-same-ration-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.belligerents-same-ration-box {
+    margin: 5px 10px;
+    font-family: Exo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    width: 100%;
+}
+
+
+.belligerents-box-area {
+    width: 100%;
+}
+
+.belligerents-box-container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Exo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding-left: 10px;
+}
+
+.belligerents-box {
+    width: 25%;
+}
+
+.belligerents-box h4 {
+    margin-bottom: 10px;
+}
+
+.war-geograph-title-list-area {
+    width: 100%;
+}
+
+.geograph-list {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.geograph-list li {
+    list-style: disc;
+    padding: 5px;
+}
+
+.belligerents-supporter-container {
+    width: 88%;
+    display: flex;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.supporter-text {
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+    border-top: 1px solid #a2a9b1;
+    padding: 10px 0;
+}
+
+.commander-name h4 {
+    padding-top: 5px;
+}
+
+.allied-area {
+    width: 100%;
+}
+
+.allied-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+
+.allied-box {
+    width: 100%;
+    display: flex;
+    margin: 5px 10px;
+    align-items: center;
+}
+
+.allied-image-box {
+    width: 10%;
+}
+
+.allied-name {
+    width: 100%;
+}
+
+.allied-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-family: proxima_nova_rgbold;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+
+.allied-container {
+    width: 100%;
+    display: flex;
+}
+
+
+
+.allied-alignment {
+    display: flex;
+    width: 100%;
+    /* list-style-type: disc; */
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.allied-alignment-no-image {
+    width: 100%;
+}
+
+.allied-name-text {
+    font-family: Exo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.allied-name-none {
+    margin-left: 10px;
+    width: 100%;
+    font-family: Exo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+
+
+.image-box {
+    width: 13%;
+}
+
+.image-box img {
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+/* ----------- Savaş Bilgi Kutusu Bitiş ------------- */
+
+
+
+.quotation {
+    display: block;
+    margin-top: 10px;
+    font-weight: 700;
+    position: relative;
+    line-height: 12px;
+}
+
+.blockquote-area {
+    width: 100%;
+    margin: 20px 0;
+    position: relative;
+}
+
+.fullwidth {
+    width: 75%;
+    margin: 20px auto;
+}
+
+.fullwidth-symbol {
+    left: 0;
+    right: 0;
+}
+
+.quoto-text {
+    width: fit-content;
+}
+
+.quoto-text span {
+    padding: 10px 0px;
+    display: inline-block;
+}
+
+.quoto-left-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoto-symbol-left,
+.quoto-symbol-right {
+    margin: 25px;
+    display: inline-block;
+}
+
+.quoto-symbol-left::before {
+    content: url(../img/icon_quotes--blue.png);
+    position: absolute;
+    filter: invert(190%) sepia(274%) saturate(856%) hue-rotate(-215deg) brightness(366%) contrast(89%);
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.quoto-symbol-left.fullwidth-symbol::before {
+    left: 0;
+}
+
+.quoto-symbol-right.fullwidth-symbol::after {
+    right: -50px;
+}
+
+.quoto-symbol-right::after {
+    content: url(../img/icon_quotes--right.png);
+    position: absolute;
+    filter: invert(190%) sepia(274%) saturate(856%) hue-rotate(-215deg) brightness(366%) contrast(89%);
+    top: 50%;
+    right: 25%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/* .quoto-symbol::before{
+    position: absolute;
+    content: url(../img/icon_quotes--blue.png);
+    display: inline-block;
+    top: 5px;
+    bottom: 30px;
+ 
+}
+
+.quoto-symbol::after{
+    position: absolute;
+    content: url(../img/icon_quotes--right.png);
+    display: inline-block;
+    top: 5px;
+    bottom: 30px;
+    filter: invert(48%) sepia(81%) saturate(646%) hue-rotate(-115deg) brightness(94%) contrast(129%);
+
+} */
+
+.quote-symbol {
+    font-weight: bold;
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    font-style: normal;
+    position: relative;
+    top: 22px;
+    left: 0px;
+    margin-right: 10px;
+}
+
+
+
+
+.quote-symbol-left::before {
+    content: "\201C";
+}
+
+.quote-symbol-right::before {
+    content: "\201D";
+    left: 10px;
+    position: absolute;
+}
+
+
+.title {
+    width: 100%;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 1rem;
+}
+
+.copyright span {
+    display: block;
+    margin: 10px 0;
+}
+
+.ottoman-empire-founded-paragraph-multiple-image-area {
+    width: 100%;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.ottoman-empire-founded-multiple-image {
+    width: 50%;
+    margin-left: 10px;
+
+}
+
+.ottoman-empire-founded-multiple-image-title {
+    width: 100%;
+    position: relative;
+}
+
+
+.ottoman-empire-founded-multiple-image:nth-child(2) {
+    margin-left: 20px;
+}
+
+.leader-name-image-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.space {
+    margin-top: 10px;
+}
+
+.anchor {
+    margin-top: -60px;
+    padding-top: 60px;
+    display: block;
+    visibility: hidden;
+    width: fit-content;
+}
+
+.mini-title-anchor {
+    margin-top: -80px;
+    padding-top: 80px;
+}
+
+.mini-title-anchor-special {
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+.ottoman-sultanate-image {
+    width: 100%;
+    height: auto;
+}
+
+.ottoman-sultanate-information {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.sultane-arrangement-area {
+    width: 100%;
+}
+
+.sultane-arrangement-area h4 {
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #dff9fb;
+    text-align: center;
+}
+
+.sultanate-info-text-area {
+    width: 100%;
+}
+
+.sultane-info-box {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+.sultane-info {
+    width: 50%;
+}
+
+.sultane-info h5 {
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+.sultane-arrangement-image-statement-title {
+    width: 100%;
+}
+
+.sultane-arrangement-image-statement-title h4 {
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #dff9fb;
+    text-align: center;
+}
+
+.info-supporter {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image-area {
+    width: 20%;
+}
+
+.info-title-area {
+    width: 90%;
+}
+
+
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+#scroll-to-top-btn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #1fc1c8;
+    border-radius: 50%;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    right: 30px;
+    bottom: 50px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#scroll-to-top-btn:hover {
+    background-color: #333;
+}
+
+#scroll-to-top-btn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#scroll-to-top-btn i {
+    font-size: 1.4em;
+    color: #fff;
+}
+
+
+.war-image-arrangement h5 {
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #dff9fb;
+    text-align: center;
+}
+
+.war-big-image-area {
+    width: 100%;
+}
+
+.war-big-image {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.war-big-image-arrangement {
+    width: 100%;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #dff9fb;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ottoman-nested-paragrapgh-list-area {
+    width: 100%;
+}
+
+.nested-paragraph-list {
+    width: 100%;
+    list-style-position: inside;
+    text-align: left;
+}
+
+.nested-paragraph-list ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 10px;
+}
+
+.nested-paragraph-list ul {
+    list-style-position: inside;
+    margin-top: 20px;
+}
+
+.nested-paragraph-list ul li::marker {
+    color: #f39c12;
+}
+
+.nested-paragraph-list li:first-child {
+    margin-top: 10px;
+}
+
+.war-body-list-area {
+    width: 100%;
+}
+
+.war-body-list {
+    width: 100%;
+}
+
+.war-body-list ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+.ottoman-empire-timeline-area {
+    width: 100%;
+    background: url(../img/history.jpeg);
+    background-position: bottom;
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+}
+
+.ottoman-empire-timeline-main-title {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 10px auto;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.timeline-area {
+    width: 100%;
+    background-color: tomato;
+    height: 500px;
+    position: relative;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+
+.right {
+    left: 50%;
+}
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.right::after {
+    left: -16px;
+}
+
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+.content h2 {
+    font-size: 1.3rem;
+    text-align: left;
+    margin: 10px auto;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.content p {
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.second-saltanate-area {
+    width: 100%;
+}
+
+.second-saltanate-box {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.small-margin {
+    margin: 0;
+}
+
+.scroll-area {
+    width: 100%;
+}
+
+/* Hamburger Menu CSS Code Start */
+
+.hamburger-menu-area {
+    width: 100%;
+    background-color: #fbfbfb;
+    padding: 30px;
+}
+
+.hamburger-menu {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 70px;
+    left: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: chocolate;
+    transition: all 0.8s;
+}
+
+.change .line-1 {
+    transform: translate(-8px, 14px) rotateZ(-405deg);
+}
+
+.change .line-2 {
+    opacity: 0;
+}
+
+.change .line-3 {
+    transform: translate(-8px, -6px) rotateZ(405deg);
+}
+
+.change {
+    left: 0 !important;
+}
+
+.navbar {
+    width: 20%;
+    height: 100%;
+    background-color: #262626;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: left 0.8s cubic-bezier(1, 0, 0, 1);
+}
+
+.nav-list {
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+}
+
+.nav-item {
+    margin: 15px;
+}
+
+.nav-link {
+    color: #eee;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 3px 0;
+}
+
+.nav-link::before,
+.nav-link::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: chocolate;
+    position: absolute;
+    left: 0;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+
+}
+
+.nav-link::after {
+    bottom: 0;
+    transform-origin: right;
+}
+
+.nav-link::before {
+    top: 0;
+    transform-origin: left;
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+/* Hamburger Menu CSS Code End */
+
+/* Kaynakça Alanı CSS Kodları */
+
+.biblography-link-area{
+    width: 100%;
+    background-color: #2980b9;
+    margin-top: 56px;
+    position: relative;
+}
+
+.biblography-margin{
+    width: 100%;
+    background-color: #6bb4d0;
+    margin-top: 50px;
+    position: relative;
+}
+
+.biblograph-content-area{
+    width: 100%;
+}
+
+.biblograph-big-title{
+    width: 100%;
+    font-size: 1.5rem;
+    color: #f7f1e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.biblograph-link-area{
+    width: 100%;
+}
+
+.biblograph-link-content{
+    width: 100%;
+}
+
+.biblograph-content-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.list-area {
+    width: 100%;
+}
+
+.list-link{
+    color: #fff;
+}
+
+.left-margin{
+    margin-left: 50px;
+}
+
+.article-orderer-link-list{
+    margin-left: 70px;
+}
+
+.article-orderer-link-list > li{
+    list-style: upper-roman;
+    padding: 3px 10px;
+    word-break: break-word;
+}
+
+.article-orderer-link-list li::marker{
+    color: #fff;
+}
+
+/* Kaynakça Alanı CSS Kodları Bitiş */
+
+
+.margin-space-area {
+    width: 100%;
+    margin-top: 65px;
+}
+
+.rise-of-ottoman-empire-sultane-portre-area {
+    width: 100%;
+}
+
+.rise-sultane-portre {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.rise-sultane-container {
+    flex-flow: wrap;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.rise-sultane-portre-name-box {
+    width: 22%;
+    font: normal 1.1rem "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 10px;
+}
+
+.rise-sultane-name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subhead-war-info-box-area {
+    width: 50%;
+    font-family: Exo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.subhead-war-info-box {
+    width: 80%;
+    margin: 0px 75px;
+}
+
+.subhead-war-info-content-box-area {
+    width: 100%;
+}
+
+.subhead-belligerent-content-area {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subhead-belligerents-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-position {
+    align-items: baseline;
+}
+
+.content-center {
+    align-items: center;
+}
+
+.content-start {
+    align-items: flex-start;
+}
+
+.commander-name-list-area {
+    width: 100%;
+    font-family: Exo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 700;
+
+}
+
+.commander-list li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-top: 5px;
+}
+
+.mini-multiple-border-area {
+    width: 100%;
+}
+
+.war-image-portre-box {
+    width: 31%;
+    font: normal 1.1rem "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 10px;
+}
+
+.special-box-image-area {
+    width: 100%;
+}
+
+.special-image-box {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.special-image-box-content {
+    width: 100%;
+    font: normal 1.1rem "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #dff9fb;
+    font-weight: bold;
+    text-align: center;
+}
+
+.belligerents-mini-title-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-title-text {
+    width: 100%;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin-left: 10px;
+}
+
+.multiple-special-box-image-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-content-box {
+    width: 50%;
+    margin-left: 15px;
+}
+
+.content-image-box {
+    width: 100%;
+}
+
+.image-content-text {
+    width: 100%;
+    text-align: center;
+    font-family: Exo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.image-spacing {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.paragraph-map-list-box-area {
+    width: 100%;
+}
+
+.paragraph-list-main-title {
+    width: 100%;
+    border-bottom: 2px solid #f7f1e3;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 20px 0;
+}
+
+.paragraph-map-list-box {
+    width: 100%;
+    display: flex;
+}
+
+.paragraph-map-list-box ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: left;
+    padding: 3px 0;
+}
+
+.paragraph-map-list-box ul li:first-child {
+    padding-top: 10px;
+}
+
+.strength-info-content-area {
+    width: 95%;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    text-align: left;
+    border-top: 1px solid #aaa;
+}
+
+.strength-info-content {
+    margin-left: 2px;
+    margin-top: 10px;
+    display: flex;
+    font-weight: 600;
+}
+
+.emperor-aphorism-area {
+    width: 30%;
+    background-color: #f9f9f9;
+    border: 1px solid #aaa;
+    color: #000;
+    height: 100%;
+    min-height: 0;
+    display: flex;
+}
+
+.emperor-aphorism-box {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.aphorism {
+    width: 100%;
+    text-align: left;
+}
+
+.aphorism h5 {
+    padding: 5px 10px;
+}
+
+.image-area {
+    width: 100%;
+    margin-top: 30px;
+    font: normal 1.1rem "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.main-div-content-image-box-container {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    max-width: 1200px;
+}
+
+.main-div-content-image-box {
+    width: 30%;
+    margin: 10px 10px;
+}
+
+.main-div-content-image {
+    width: 100%;
+}
+
+.main-div-image-content {
+    width: 100%;
+    text-align: center;
+}
+
+.flag-box-space {
+    margin-bottom: 10px;
+}
+
+.space-left {
+    margin-left: 20px;
+}
+
+.content-paragraph-image-info-box-area {
+    width: 100%;
+    display: flex;
+}
+
+.content-paragraph-area {
+    width: 60%;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    margin: 10px 10px;
+}
+
+.info-image-box-area {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-war-box-area {
+    width: 100%;
+}
+
+.info-image-war-box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.info-war-image-box {
+    width: 70%;
+    margin: 25px auto;
+}
+
+.info-image-head-war-info-box {
+    width: 100%;
+}
+
+.war-info-content-text-area {
+    width: 100%;
+}
+
+.war-info-content-text-container {
+    width: 100%;
+    display: flex;
+}
+
+.war-info-content-text-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+
+.info-war-image-box-area {
+    width: 100%;
+}
+
+.info-war-image-content {
+    width: 100%;
+    text-align: center;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #dff9fb;
+}
+
+.info-war-image-content h5 {
+    margin-top: 10px;
+}
+
+.poem {
+    padding-top: 5px;
+}
+
+.list-style li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-top: 5px;
+}
+
+.border-none-space {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.table-area {
+    width: 100%;
+}
+
+.table-box {
+    width: 100%;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #202122;
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+}
+
+.table-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.bg {
+    background-color: #e8e8e8;
+}
+
+.bg-head {
+    background-color: #eaecf0;
+    border: 1px solid #a2a9b1;
+}
+
+.table-box>*>tr>td {
+    border: 1px solid #a2a9b1;
+    padding: 0.4em 0.4em;
+}
+
+th {
+    border: 1px solid #a2a9b1;
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+.table-size-area {
+    width: 35%;
+}
+
+.slider-image-area {
+    width: 100%;
+}
+
+.slider-container {
+    width: 100%;
+    margin-left: 12px;
+    display: flex;
+    max-width: 1000px;
+}
+
+.slider-container {
+    width: 100%;
+    margin-left: 12px;
+    display: flex;
+    max-width: 1000px;
+}
+
+.change-slider-container {
+    max-width: 980px;
+}
+
+.slider-image-box {
+    width: 33.3333%;
+    margin-top: 10px;
+}
+
+.slider-image-box {
+    margin-left: 10px;
+}
+
+.slider-image-box:nth-child(1) {
+    margin-left: 0;
+    border-radius: 0.5rem;
+}
+
+.slider-image {
+    width: 100%;
+}
+
+
+.slider-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    vertical-align: middle;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.slider-image-area-space {
+    margin-left: -10px;
+}
+
+.special-style {
+    width: 75%;
+}
+
+.commander-info-inside-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.commander-info-inside-container>hr {
+    height: 1px;
+    background-color: #a2a9b1;
+    border: 0;
+    margin: 5px 10px;
+    width: 100%;
+}
+
+.war-content-title.title-text a {
+    color: #ff9b07;
+}
+
+.carousel-slider-area {
+    width: 30%;
+}
+
+.carousel-slider-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 500px;
+
+}
+
+.carousel-image-text-box {
+    width: 100%;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin-bottom: 10px;
+}
+
+.carousel-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.carousel-image-box {
+    width: 100%;
+}
+
+.carousel-image-box img {
+    object-fit: cover;
+    aspect-ratio: 5/4;
+}
+
+.caliph-second {
+    height: 1px;
+    background-color: #a2a9b1;
+    margin-left: 5px;
+    width: 85%;
+}
+
+.second {
+    margin-left: 15px;
+    width: 100%;
+}
+
+a {
+    color: #ff9b07;
+}
+
+.emperor-blockquote-list-area {
+    width: 100%;
+}
+
+.emperor-blockquote-list {
+    width: 100%;
+}
+
+.emperor-blockquote-list li {
+    padding: 5px 10px;
+    margin-top: 15px;
+    border-left: 4px solid #eaecf0;
+}
+
+.emperor-blockquote-list ul li:first-child {
+    margin-top: 10px;
+}
+
+.content-slider-area {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.content-slider-container {
+    max-width: 500px;
+    width: 100%;
+}
+
+.content-slider-image-text-box {
+    width: 100%;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin-bottom: 10px;
+}
+
+
+.content-text {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.content-image-box img {
+    object-fit: cover;
+    aspect-ratio: 4/4;
+    object-position: bottom;
+}
+
+.content-result-list-area {
+    width: 100%;
+}
+
+.content-result-list {
+    width: 100%;
+    list-style-type: disc;
+}
+
+.content-result-list ul li {
+    width: 100%;
+    list-style-type: disc;
+}
+
+.content-result-list li {
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.content-result-list:first-child {
+    margin-top: 10px;
+}
+
+.war-belligerents-list-area {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+.war-belligerents-left-area {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+
+.war-belligerents-info-title {
+    width: 100%;
+}
+
+.war-belligerents-list-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.belligerents-list-box {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.belligerents-list {
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.war-strength-area {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.war-strength-container {
+    width: 50%;
+}
+
+.war-strength-info-box {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.war-geograph-changes-list-area {
+    width: 100%;
+}
+
+.war-geograph-change-list-container {
+    width: 100%;
+    margin: 10px 20px;
+}
+
+.war-geograph-change-list-container ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.war-geograph-change-list-container li {
+    margin: 5px 0;
+}
+
+.negative {
+    margin-left: 0px;
+}
+
+.content-margin {
+   margin-bottom: 20px;
+}
+
+.content-margin-top {
+    margin-top: 20px;
+ }
+
+ .unordererlist-margin{
+    margin-top: 8px;
+ }
+
+ .list-title-contents {
+    color: #638bae;
+ }
+
+ .orderer-list{
+    margin-top: 20px;
+ }
+
+ .orderer-list li{
+    list-style-type:decimal;
+    list-style-position: inside;
+ }
+
+ .orderer-list li span{
+    margin-left: 10px;
+ }
+
+ .image-bottom-space{
+    margin-bottom: 10px;
+ }
+
+ .justify-alignment ul li{
+    text-align: justify;
+    margin-top: 5px;
+ }
+
+ .none-margin{
+    margin-top: 0;
+ }
+
+ .special-style{
+    align-items: center;
+ }
+
+ .mini-font{
+    font-size: 0.9rem;
+ }
+
+ .lost-info-area{
+    width: 100%;
+    display: flex;
+    font-family: Exo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+ }
+
+ .lost-info-container{
+    width: 50%;
+ }
+
+ .lost-info-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+ }
+
+ .lost-info-image-box{
+    width: 13%;
+
+ }
+
+ .lost-info-image img {
+    border-radius: 0;
+ }
+
+ .lost-info-image{
+    width: 100%;
+ }
+
+ .lost-info-soldiers-area{
+    width: 100%;
+ }
+
+ .lost-info-soldiers{
+    width: 100%;
+ }
+
+.italic-different-text{
+    color: #dff9fb;
+}
+
+.border-none{
+    border: none;
+}
+
+.signatories-flag-name-area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.signatories-flag{
+    width: 10%;
+    margin-left: 5px;
+}
+
+.signatories-flag img {
+    border-radius: 0;
+}
+
+.signatories-name{
+    width: 100%;
+    margin-left: 5px;
+}
+
+.margin-bold{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.align-justify{
+    text-align: -webkit-auto;
+}
+
+.image-info-text-area{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.image-info-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #dff9fb;
+    text-align: center;
+}
+
+.belligerents-text-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.belligerents-text{
+    width: 100%;
+    margin: 5px 10px;
+    font-weight: bold;
+    font-family: 'proxima_nova_rgregular';
+}
+
+.justify-text-list-area{
+    width: 100%;
+    text-align: justify;
+}
+
+.article-orderer-list {
+    margin-left: 15px;
+}
+
+.article-orderer-list > li{
+    list-style: decimal;
+    padding: 3px 10px;
+}
+
+.unordered-list > li{
+    list-style: disc;
+    padding: 3px 0px;
+}
+
+.paragraph-list > li{
+    padding:10px 0;
+}
+
+.title-space{
+    margin: 5px 0;
+}
+
+.no-left{
+    margin-left: 0;
+}
+
+.special-content-width{
+    width: 65%;
+    padding: 15px 10px;
+    padding-right: 35px;
+    font-family: 'Source Sans Pro';
+    text-align: justify;
+}
+
+.special-war-info-box-width{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.special-war-info-box-area{
+    width: 100%;
+}
+
+.occupartion-content-area{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.occupation-belligerents-container{
+    width: 33.3333%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.occupation-belligerents-flag-area{
+    width: 25%;
+}
+
+.occupation-belligerents-flag-name-box{
+    width: 100%;
+    display: flex;
+    margin: 5px 0px;
+    align-items: center;
+}
+
+.occupation-content-area{
+    width: 100%;
+    display: flex;
+}
+
+.occupation-strength-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.occupation-strength-area{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.occupation-flag-area{
+    width: 7%;
+}
+
+.occupation-no-flag-name{
+    width: 100%;
+    font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 5px 0px;
+}
+
+.occupation-long-line-brace{
+    width: 100%;
+    height: 1px;
+    background-color: #a2a9b1;
+}
+
+.occupation-content-title{
+    width: 30%;
+    padding: 5px 0px;
+}
+
+.margin-bottom{
+    padding: 10px 0;
+}
+
+.text-text{
+    width: 100%;
+    text-align: justify;
+    color: #fff;
+}
+
+.text-text > p {
+    padding: 20px 10px;
+}

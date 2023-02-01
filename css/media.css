@@ -1,0 +1,344 @@
+@media screen and (max-width: 1024px) {
+    /*  Footer Responsive Start Code */
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-content-box {
+        width: 80%;
+        margin: 30px 50px;
+    }
+
+    .logo {
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .nav-menu-links .list-item {
+        display: block;
+        border-top: 1px solid #00b3fd;
+        padding: 10px;
+        transform: translateX(0);
+        transition: transform .3s linear;
+    }
+
+    .nav-menu-links {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        display: none;
+        transform: translateX(0);
+        transition: transform .3s linear;
+    }
+
+    .site-link-logo-area {
+        flex-direction: column;
+        justify-content: start;
+        transform: translateX(0);
+        transition: transform .3s linear;
+        align-items: flex-start;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        right: 45px;
+        top: 20px;
+        cursor: pointer;
+        transform: translateX(0);
+        transition: all 0.4s ease-in;
+    }
+
+    .active {
+        display: block;
+        height: 100vh;
+        transform: translateX(0);
+        transition: all 0.4s ease-in;
+    }
+
+    .hamburger-menu {
+        top: 78px;
+    }
+
+    .fullwidth {
+        width: 88%;
+    }
+
+    .mini-info-container {
+        width: 93%;
+        flex-direction: column;
+    }
+
+    
+    .mini-info-title {
+        width: 100%;
+        font: 23px 'PT Sans', sans-serif;
+    }
+
+    .mini-info-right-area {
+        width: 100%;
+    }
+
+    .mini-info-right-image-second-child {
+        width: 90%;
+        margin: 30px 0px;
+    }
+
+    .navbar {
+        width: 100%;
+        left: -500px;
+    }
+
+
+    .mini-info-title {
+        width: 100%;
+        font: 23px 'PT Sans', sans-serif;
+    }
+
+    .mini-info-right-area {
+        width: 100%;
+    }
+
+    .mini-info-right-image-second-child {
+        width: 90%;
+        margin: 30px 0px;
+    }
+
+    .info-content-container {
+        flex-wrap: wrap;
+    }
+
+    .info-content-box {
+        width: 95%;
+        margin-bottom: 40px;
+        margin-left: 60px;
+    }
+
+    .info-content-title {
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    .content-paragraph {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .info-content-icon {
+        width: 5% !important;
+    }
+
+    .info-box-main-container{
+        flex-wrap: wrap;
+    }
+
+    .info-box{
+        width: 45%;
+    }
+
+    .ottoman-sultane-reign-tenure-title-box{
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+        left: -1010px;
+    }
+
+
+    /* Footer Responsive End Code */
+}
+
+@media screen and (min-width: 500px){
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .rise-sultane-portre-name-box{
+        width: 40%;
+    }
+
+    .content-info-box{
+        flex-direction: column;
+    }
+
+    .war-info-box{
+        width: 80%;
+        margin: 2px 8px;
+    }
+
+    .paragraph-map-box-area{
+        flex-direction: column;
+    }
+
+    .paragraph-box-war-box-content-image-box-area{
+        flex-direction: column;
+    }
+
+    .content-paragraph-area{
+        width: 90%;
+    }
+
+    .info-image-box-area{
+        width: 88%;
+    }
+
+    .info-image-war-box{
+        margin: 0 auto;
+    }
+
+    .subhead-war-info-box{
+        margin: 0;
+    }
+
+    .subhead-war-info-box-area{
+        width: 100%; 
+    }
+
+    .paragraph-map-box{
+        width: 90%;
+    }
+
+    .special-box-content-paragraph{
+        width: 95%;
+    }
+
+    .war-info-box-area{
+        width: 95%;
+    }
+
+    .paragraph-box{
+        width: 95%;
+    }
+
+    .war-box-content-image-box-area{
+        width: 80%;
+    }
+    .map-box {
+        width: 80%;
+        margin: 20px 0;
+    }
+
+    .special-content-width{
+        width: 99%;
+    }
+
+    .special-war-info-box-width{
+        width: 85%;
+        margin-left: 10px;
+    }
+
+    .content-image-area{
+        width: 50%;
+    }
+
+    .content-paragraph-image-info-box-area{
+        flex-direction: column;
+    }
+
+    .special-box{
+        flex-direction: column;
+    }
+
+    .content-image-area{
+        width: 90%;
+    }
+
+    
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .ottoman-empire-sultanate-info-container {
+        flex-direction: column;
+    }
+
+    .ottoman-empire-sultanate-portre {
+        width: 100%;
+    }
+
+    .special-box {
+        flex-direction: column;
+    }
+
+    .special-box-content-paragraph {
+        width: 100%;
+    }
+
+    .content-image-area {
+        width: 90%;
+        margin: auto;
+    }
+
+    .paragraph-map-box-area {
+        flex-direction: column;
+    }
+
+    .paragraph-map-box {
+        width: 100%;
+        padding: 0;
+    }
+
+    .rise-sultane-container {
+        flex-direction: column;
+    }
+
+    .rise-sultane-portre-name-box {
+        width: 80%;
+        margin: auto;
+    }
+
+    .navbar {
+        left: -750px;
+        width: 100%;
+    }
+
+    .war-info-box-area {
+        width: 100%;
+
+    }
+
+
+}
+
+/* Timeline Responsive Code */
+
+@media screen and (max-width: 1024px) {
+
+    .timeline::after {
+        left: 31px;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+
+}
+
+/* Timeline Responsive Code End */

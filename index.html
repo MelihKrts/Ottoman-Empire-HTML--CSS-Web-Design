@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Sayfaya Hoşgeldiniz</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,300i,400,400i,600,700,900i&amp;subset=latin-ext"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <link
+    href="https://fonts.googleapis.com/css?family=Exo:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Montserrat:300,400,500,600,700&display=swap&subset=latin-ext"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"
+    integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+  <link rel="icon" href="img/icon.png" type="image/png">
+
+
+  <style>
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide{
+      padding-bottom: 20px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header class="site-head-area">
+    <nav class="site-link-logo-area">
+
+      <a href="index.html">
+        <div class="logo">Osmanlı Tarihi</div>
+      </a>
+
+      <ul class="nav-menu-links" id="nav-list">
+        <li class="list-item"><a class="menu-links-anchor" href="kurulus/kurulus-donemi.html">Kuruluş Dönemi</a></li>
+        <li class="list-item"><a class="menu-links-anchor" href="yukselis/yukselis-donemi.html">Yükseliş Dönemi</a></li>
+        <li class="list-item"><a class="menu-links-anchor" href="duraklama/duraklama-donemi.html">Duraklama Dönemi</a></li>
+        <li class="list-item"><a class="menu-links-anchor" href="gerileme/gerileme-donemi.html">Gerileme Dönemi</a></li>
+        <li class="list-item"><a class="menu-links-anchor" href="dagilma/dagilma-donemi.html">Dağılma Dönemi</a></li>
+        <li class="list-item"><a class="menu-links-anchor" href="hakkimizda.html">Hakkımızda</a></li>
+        <li class="list-item"><a class="menu-links-anchor" href="iletisim.html">İletişim</a></li>
+      </ul>
+
+      <div class="menu" id="toggle-button">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+
+    </nav>
+
+  </header>
+
+<div class="margin-space-area"> </div>
+
+<section class="slider-area">
+
+  <div class="swiper mySwiper">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide"><img src="img/conquerKonstantin.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/ottoman-empire-explainer-sulieman.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/Battle_of_Lepanto_1571.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/mosaic-art-ottoman-era-red-blue-.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/Istambul_observatory_in_1577.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/Ottoman-Empire-Illustrator.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/osmanli-ulemasi.jpg" alt=""></div>
+    </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    direction: "vertical",
+    slidesPerView: 1,
+    spaceBetween: 30,
+    mousewheel: true,
+    keyboard:true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
+
+      <section class="info-box-area">
+
+      <div class="info-box-main-container">
+
+        <div class="info-box w3-bar-item w3-button tablink w3-red" onclick="openLink(event, 'tab1')">
+          <div class="warning-title">Osmanlı Tarihi Üzerine Ufak İnceleme</div>
+        </div>
+
+        <div class="info-box w3-bar-item w3-button tablink" onclick="openLink(event, 'tab2')">
+          <div class="warning-title">Tarih Kaynaksız Olmaz !</div>
+        </div>
+
+        <div class="info-box w3-bar-item w3-button tablink" onclick="openLink(event, 'tab3')">
+          <div class="warning-title">Gerçekçi Tarih !</div>
+        </div>
+
+        <div class="info-box w3-bar-item w3-button tablink" onclick="openLink(event, 'tab4')">
+          <div class="warning-title">Objektif Tarih Anlayışı !</div>
+        </div>
+
+      </div>
+
+      <div class="info-content-title-container-area w3-animate-top buttons " id="tab1">
+
+          <div class="info-content-title">
+            <h4>623 Yıllık Saltanat</h4>
+          </div>
+
+          <div class="info-content-container">
+
+            <div class="info-content-box">
+
+              <div class="info-content-icon"><i class="fa-solid fa-timeline"></i></div>
+
+              <div class="content-paragraph"><span>623 Yıllık İmparatorluğun kısa özeti. Anlaşılır görsellerle desteklenmiş. 3 kıta hüküm. 5 farklı
+                başkent.</span></div>
+
+            </div>
+
+            <div class="info-content-box">
+
+              <div class="info-content-icon"><i class="fa-solid fa-star"></i></div>
+
+              <div class="content-paragraph">
+                <span>Söğüt, İznik, Bursa Edirne, İstanbul. 5 Farklı Başkentlik.</span></div>
+
+            </div>
+
+            <div class="info-content-box">
+
+              <div class="info-content-icon"><i class="fa-solid fa-crown"></i></div>
+
+              <div class="content-paragraph">
+                <span>36 Hükümdar. </span>
+              </div>
+
+            </div>
+
+          </div>
+
+      </div>
+
+      <div class="info-content-title-container-area w3-animate-top buttons" id="tab2" style="display:none;">
+
+        <div class="info-content-title">
+          <h4>Tarihte Kaynak Kullanılmalı !</h4>
+        </div>
+
+        <div class="info-content-container">
+
+          <div class="info-content-box" style="width: 100%;">
+
+            <div class="info-content-icon" style="width:10%"><i class="fa-solid fa-info"></i></div>
+
+            <div class="content-paragraph" style="width: 90%;">
+              <span>Tarih bilimi geçmişten günümüze aktardığı bilgilerin doğruluğunu kaynakları ile güçlendirir. Kaynaklar
+                ne kadar sağlamsa aktarılan bilginin doğruluğu da o kadar sağlam olur.</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="info-content-title-container-area w3-animate-top buttons" id="tab3" style="display:none;">
+
+      <div class="info-content-title">
+        <h4>Tarihin Doğru Belirlenmesi !</h4>
+      </div>
+
+      <div class="info-content-container">
+
+        <div class="info-content-box" style="width: 100%;">
+
+          <div class="info-content-img-area">
+            <img src="img/Ataturk.png" alt="">
+          </div>
+
+          <div class="content-paragraph" style="width: 80%;">
+            <span>Tarih bilimi geçmişten günümüze aktardığı bilgilerin doğruluğunu kaynakları ile güçlendirir. Kaynaklar
+              ne kadar sağlamsa aktarılan bilginin doğruluğu da o kadar sağlam olur.</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      </div>
+
+      <div class="info-content-title-container-area" id="tab4" style="display:none;">
+
+    <div class="info-content-title">
+      <h4>Tarihçi ve Tarafsızlık Hususu !</h4>
+    </div>
+
+    <div class="info-content-container">
+
+      <div class="info-content-box" style="width:100%">
+
+        <div class="info-content-img-area">
+          <img src="img/Ataturk2.png" alt="">
+        </div>
+
+        <div class="content-paragraph" style="width: 80%;"><span>Objektif tarih anlayışı tarihin birçok farklı düşünceden oluşan kaynaklardan incelenmesi, tarihin
+          eldeki tüm kaynaklarından okunması, farklı dillerde tarih kaynaklarının okunması şeklinde olabilir. Yani
+          tek taraflı değil çok yönlü bir şekilde araştırma yapılmalıdır. Bu araştırma sonucu bizi nesnelliğe
+          götürmelidir.</span></div>
+
+      </div>
+
+    </div>
+
+      </div>
+
+
+      </section>
+
+      <script>
+        function openLink(evt, animName) {
+          var i, x, tablinks;
+          x = document.getElementsByClassName("info-content-title-container-area");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace("w3-red", "");
+          }
+          document.getElementById(animName).style.display = "block";
+          evt.currentTarget.className += " w3-red";
+        }
+      </script>
+
+  <section class="mini-info-area-box">
+
+    <div class="mini-info-container">
+
+      <div class="mini-info-left-area">
+
+        <div class="mini-info-title"><strong>Osmanlı İmparatorluğu <span style="margin-left: 5px;">
+              - <span style="margin-left: 10px;">Ön</span> Bilgi</span></strong></div>
+
+        <div class="mini-info-content">
+
+          <p>Osmanlı İmparatorluğu, Osmanlı Devleti (Osmanlıca: دَوْلَتِ عَلِيّهٔ عُثمَانِیّه , Devlet-i Aliyye-i
+            Osmâniyye) veya Batı kroniklerindeki kullanımlarca Türk İmparatorluğu, 1299 yılında Oğuz Türklerinden Osman
+            Gazi'nin kurduğu Osmanoğlu Hanedanı'nın hükümdarlığında Orta Çağ'dan Yakın Çağ'a kadar varlığını sürdürmüş
+            bir imparatorluktur. Bugünkü Türkiye'nin Bilecik ilinin Söğüt ilçesinde kurulmuş bir beylik iken, 1453
+            yılında II. Mehmed'in Konstantinopolis'i fethedip Bizans İmparatorluğu'na son vermesiyle imparatorluk hâline
+            gelmiştir. 1517 yılında, I. Selim'in Büyük Mısır Seferi sonucunda İslam hilâfeti Osmanlı Hanedanı'na geçmiş
+            ve bu tarihten sonra gelen her padişah, aynı zamanda halife olmuştur. En geniş sınırlarına 1683 yılında
+            ulaşmış; Orta Avrupa'nın bir bölümü ile Balkanlar'ın tamamı, Kuzey Afrika'nın bir bölümü, Hicaz,
+            Mezopotamya, Kafkasya'nın bir bölümü ve Anadolu üzerinde hâkimiyet kurmuştur. 1699 yılında Karlofça
+            Antlaşması sonrası gerileme dönemine girmiş ve 1922 yılında saltanatın kaldırılması ile birlikte
+            yıkılmıştır.</p>
+        </div>
+
+      </div>
+
+      <div class="mini-info-right-area">
+
+        <div class="mini-info-right-image-area">
+
+          <div class="mini-info-right-image-first-child">
+
+            <img src="img/TurkeyFlag.png" alt="">
+
+          </div>
+
+          <div class="mini-info-right-image-second-child">
+            <img src="img/Ottoman_Empire_arms.png" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="ottoman-empire-timeline-area">
+
+    <div class="ottoman-empire-timeline-main-title">
+      <h2>Osmanlı İmparatorluğu Önemli Zaman Çizelgesi</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h2>1299 - 1302</h2>
+          <p>Koyunhisar - Bopheus Savaşı Osmanlı Devleti Kuruluşu. Söğüt'te Osmanlı'nın Osman Gazi tarafından kurulması
+            <i>(Devlet-i Aliyye, Halil İnalcık)</i></p>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <h2>1326</h2>
+          <p>Bursa'nın Osmanlılar tarafından alınışı</p>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <h2>1361</h2>
+          <p>Yeniçeri Ocağının kuruluşu</p>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <h2>1389</h2>
+          <p>1389 - I. Murad'ın muharebe meydanında ölümü</p>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <h2>1402 - 1413</h2>
+          <p>Fetret Devri, iç karışıklıklar</p>
+        </div>
+      </div>
+
+
+      <div class="container right">
+        <div class="content">
+          <h2>1453</h2>
+          <p> İstanbul'un fethi</p>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <h2>1570 </h2>
+          <p>Kıbrıs Seferi, Lefkoşa'nın fethi</p>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <h2>1699</h2>
+          <p> Karlofça Antlaşması'yla (26 Ocak) Macaristan'ın Avusturya'ya, Podolya ve Ukrayna'nın Lehistan'a, Mora'nın
+            Venedik'e kaybı</p>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <h2>1718 </h2>
+          <p>Pasarofça Antlaşması, Banat, Sırbistan ile Bosna'nın kuzeyi ve Eflak'ın batısının kaybı</p>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <h2>1718 </h2>
+          <p>Lâle Devri'nin başlaması</p>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <h2>1730 </h2>
+          <p>Patrona Halil isyanı, III. Ahmed'in tahttan indirilmesi, I. Mahmud'un tahta çıkışı, Lâle Devri'nin sona
+            ermesi</p>
+        </div>
+      </div>
+
+
+      <div class="container right">
+        <div class="content">
+          <h2>1774 </h2>
+          <p>Rus ordusuna karşı Kozluca yenilgisi, Küçük Kaynarca Antlaşması'yla Osmanlı-Rus Savaşı'nın sonlandırılması,
+            Kırım Hanlığı'nın bağımsız olması, Dinyeper ve Bug Nehri arasındaki toprakların terki, Kabartay'ın Ruslarca
+            ilhakının tanınması, Ruslara Karadeniz'de seyrüsefer hakkı tanınması</p>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <h2>1808 </h2>
+          <p>Sened-i İttifak: Devletin ayanlarla uzlaşması (29 Eylül)</p>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <h2>1881 </h2>
+          <p> Osmanlı maliyesinin borçlarını ödeyemez hale gelmesi, Muharrem Kararnamesi (15 Ekim) ve Düyûn-ı Umûmiye
+            İdaresinin kurulması (20 Aralık)</p>
+        </div>
+      </div>
+
+
+      <div class="container left">
+        <div class="content">
+          <h2>1808 </h2>
+          <p>Sened-i İttifak: Devletin ayanlarla uzlaşması (29 Eylül)</p>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <h2>1909 </h2>
+          <p> 31 Mart Olayı (13 Nisan)</p>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <h2>1911 </h2>
+          <p>İtalya'nın Trablusgarp ve Bingazi'ye saldırması ve işgali</p>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <h2>1922 </h2>
+          <p> Mehmed Vahidettin'in yurt dışına çıkması (17 Kasım) ve Abdülmecid Efendi'nin halife seçilmesi (19 Kasım)
+          </p>
+        </div>
+      </div>
+
+
+      <div class="container left">
+        <div class="content">
+          <h2>1922 </h2>
+          <p> Türkiye Büyük Millet Meclisi'nin kararıyla Osmanlı saltanatının kaldırılması (1 Kasım)
+          </p>
+        </div>
+      </div>
+
+
+
+
+      <div class="container right">
+        <div class="content" style="margin-bottom: 50px ;">
+          <h2>1923 </h2>
+          <p> 1923 - Türkiye'de cumhuriyetin ilanı (29 Ekim)</p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+
+  </section>
+
+
+  <footer class="site-end">
+    <div class="footer-container">
+
+      <div class="footer-content-box">
+
+        <div class="footer-content-title">
+          <h4>Linkler</h4>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="kurulus/kurulus-donemi.html">Kuruluş Dönemi</a></li>
+          <li><a href="yukselis/yukselis-donemi.html">Yükseliş Dönemi</a></li>
+          <li><a href="duraklama/duraklama-donemi.html">Duraklama Dönemi</a></li>
+          <li><a href="gerileme/gerileme-donemi.html">Gerileme Dönemi</a></li>
+          <li><a href="dagilma/dagilma-donemi.html">Dağılma Dönemi</a></li>
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+          <li><a href="kaynakca.html">Kaynakça</a></li>
+        </ul>
+
+      </div>
+
+      <div class="footer-content-box">
+
+        <div class="footer-content-title">
+          <h4>Sosyal Medya'da Biz</h4>
+        </div>
+
+        <div class="footer-social-media-icon-area">
+          <div class="footer-media-icons"><i class="fa-brands fa-facebook-f"></i></div>
+          <div class="footer-media-icons"><i class="fa-brands fa-twitter"></i></div>
+          <div class="footer-media-icons"><i class="fa-brands fa-instagram"></i></div>
+          <div class="footer-media-icons"><i class="fa-brands fa-youtube"></i></div>
+        </div>
+
+      </div>
+
+
+      <div class="footer-content-box">
+
+        <div class="footer-content-title">
+          <h4>Bize Ulaşın</h4>
+        </div>
+
+        <div class="footer-form-area">
+          <form action="#" method="post">
+            <input type="text" name="isim" class="form-input" placeholder="İsminiz">
+            <input type="text" name="soyad" class="form-input" id="" placeholder="Soyadınız">
+            <input type="text" name="mail" class="form-input" id="" placeholder="E-mail adresinizi giriniz">
+            <textarea name="" id="" rows="2" class="big-text-area form-input" placeholder="Mesajınız"></textarea>
+            <button type="submit" class="form-button">Gönder</button>
+          </form>
+        </div>
+
+      </div>
+
+
+    </div>
+    <div class="copyright"><span style="display: block; padding-bottom: 15px;">© 2022 Tüm hakları saklıdır
+        kopyalanamaz.</span></div>
+
+  </footer>
+
+
+
+
+
+</body>
+
+<a id="scroll-to-top-btn" onclick="topPage()">
+  <i class="fa-solid fa-arrow-up"></i>
+</a>
+
+<script>
+  function topPage() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+</script>
+
+<script>
+  var btn = $('#scroll-to-top-btn');
+
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 75) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+</script>
+
+
+<script>
+
+  const toggleButton = document.getElementById("toggle-button");
+  const navList = document.getElementById("nav-list")
+
+
+  toggleButton.addEventListener("click",()=>{
+    navList.classList.toggle("active");
+  })
+
+</script>
+
+</html>
